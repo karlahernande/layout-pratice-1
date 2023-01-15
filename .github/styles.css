@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.HeaderMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #383E4C;
+    align-items: center;
+    height: 180px;
+}
+
+.Nav {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: aliceblue;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.Hero {
+    width: 100%;
+    height: 70vh;
+    background-image: url(layout-01-assets/img11.jpg);
+    background-size: 100vw 70vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+.HeroContent {
+    /* width: fit-content; */
+    padding: 2em;
+    border-radius: 0.4em;
+    justify-content: center;
+}
