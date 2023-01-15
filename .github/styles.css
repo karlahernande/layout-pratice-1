@@ -40,7 +40,8 @@ a {
 
 .HeroContent {
     /* width: fit-content; */
-    padding: 2em;
+    padding: 29em;
     border-radius: 0.4em;
     justify-content: center;
+    color: aliceblue;
 }
