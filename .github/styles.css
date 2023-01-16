@@ -15,33 +15,45 @@
 }
 
 .Nav {
-    width: 70vw;
+    width: 90vw;
     display: flex;
     justify-content: space-around;
+   
+    padding: 50px;
+    margin: 10px;
 }
 
 a {
     color: aliceblue;
-    font-size: 10px;
+    font-size: 20px;
     text-decoration: none;
 }
 
 .Hero {
     width: 100%;
-    height: 70vh;
+    height: 55.6vh;
     background-image: url(layout-01-assets/img11.jpg);
     background-size: 100vw 70vh;
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
     text-align: center;
+    position: absolute;
 
 }
 
 .HeroContent {
     /* width: fit-content; */
-    padding: 29em;
+    padding: 45vw;
     border-radius: 0.4em;
     justify-content: center;
     color: aliceblue;
+    font-size: 20px;
+    
+}
+
+.forest {
+    background-image: url(layout-01-assets/img1.jpg);
+    display: -webkit-box;
+    
+    
 }
